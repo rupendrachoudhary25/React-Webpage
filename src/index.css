@@ -47,3 +47,55 @@
   align-items: center;
   background-color: aquamarine;
 }
+.box-wrapper {
+  margin-top: 20px;
+  display: flex;
+  gap: 1rem;
+}
+
+.box {
+  width: 24%;
+  background-color: aliceblue;
+  position: relative;
+}
+
+.box img {
+  width: 100%;
+  height: 300px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.box .box-info {
+  padding: 1rem 0.5rem 3rem;
+}
+
+.box .box-info h3 {
+  margin-bottom: 0.5rem;
+}
+
+.box .box-info a {
+  position: absolute;
+  left: 30%;
+  bottom: -16px;
+  border: 2px solid rgb(59, 131, 131);
+  background-color: rgb(59, 131, 131);
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 400ms;
+}
+
+.box .box-info a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+footer {
+  padding: 1rem 0;
+}
+
+footer p {
+  text-align: center;
+}
